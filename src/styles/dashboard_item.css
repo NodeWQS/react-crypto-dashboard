@@ -1,0 +1,90 @@
+.dashboard_item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+.dashboard_item:hover {
+    cursor: pointer;
+    border-radius: 8px;
+    background: #0D0D0D;
+}
+.dash {
+    display: flex;
+    min-width: 280px;
+    align-items: center;
+}
+.dashboard_name {
+    margin-left: 15px;
+    display: flex;
+}
+.dashboard_title {
+    font-size: 18px;
+    color: white;
+}
+.dashboard_symbol {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #737373;
+}
+.dashboard_photo img {
+    width: 32px;
+    height: 32px;
+}
+.change_cont {
+    min-width: 150px;
+}
+.change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 67px;
+    height: 30px;
+    border-radius: 8px;
+}
+.change > h2 {
+    font-size: 15px;
+}
+.price {
+    min-width: 150px;
+}
+.price > h2 {
+    color: white;
+    font-size: 16px;
+}
+.volume {
+    min-width: 150px;
+}
+.volume > h2 {
+    font-size: 16px;
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    .volume {
+        display: none;
+    }
+    .dash {
+        min-width: 150px;
+    }
+    .price {
+        min-width: 100px;
+    }
+    .change_cont {
+        min-width: 100px;
+    }
+    .dashboard_title {
+        font-size: 14px;
+    }
+    .dashboard_symbol {
+        display: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .price > h2 {
+        font-size: 14px;
+    }
+}

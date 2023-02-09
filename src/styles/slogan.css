@@ -1,0 +1,17 @@
+.slogan {
+    margin: 0 auto;
+    margin-top: 35px;
+    max-width: 600px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slogan h1 {
+    font-size: 36px;
+    color: white;
+}
+.slogan span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #B3B3B3;
+}
